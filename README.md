@@ -19,7 +19,7 @@ Que cosas necesitas para instalar el software y como verla en el dispositivo loc
 ```bash
   -cd "nombre de el lugar donde quieres la carpeta"
   -mk "nombre de la carpeta"
-  -git clone 
+  -git clone https://github.com/SoffiaSanchezz/Proyect-Calculadora.git
 ```
 - Abrir el clon
 
