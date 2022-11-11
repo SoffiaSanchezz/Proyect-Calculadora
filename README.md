@@ -40,7 +40,7 @@ Que cosas necesitas para instalar el software y como verla en el dispositivo loc
 ## Despliegue 📦
 
 El despliege esta apto para ejecutarse
-- 
+- "link del despliege"
 
 ## Construido con 🛠️
 
