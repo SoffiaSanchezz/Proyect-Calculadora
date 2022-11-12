@@ -20,7 +20,7 @@ body{
 
 .calculator{
     width: 100%;
-    height: 100%;
+    height: 700px;
     overflow: hidden;
     border-radius: 1px solid #000;
     margin: 15px 0px;
@@ -32,7 +32,7 @@ body{
 
 #result{
     width: 100%;
-    height: 150px;
+    height: 200px;
     padding: 0px 20px;
     font-size: 50px;
     color: #000;
@@ -43,8 +43,8 @@ body{
     color: #d8e3f6;
 }
 .container{
-    width: 100%;
-    height: 150px;
+    width: 98%;
+    height: 98px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -394,124 +394,113 @@ input:checked + .toggle .star--6 {
 
 @media only screen and (min-width: 700px){
     .calculator{
-        width: 384px;
-        height: 500px;
+        width: 400px;
+        height: 900px;
         overflow: hidden;
-        border-radius: 1%;
-        background-color: rgba(0, 0, 0, 0.163);
-        padding: 10px 0px;
+        border-radius: 10%;
+        border-radius: 1px solid #000;
+        margin: 2%;
     }
     #result{
-        width: 368px;
-        height: 100px;
-        padding: 25px 25px;
+        width: 100%;
+        height: 200px;
+        padding: 0px 20px;
         font-size: 24px;
         color: #000;
-        align-items: center;
-        border-radius: 5%;
-        background: #e2e6f1;
+        font-family: 'Poppins', sans-serif;
     }
     .container{
         width: 96%;
-        height: 300px;
+        height: 96px;
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 15px;
+        gap: 10px;
         font-weight: bold;
-        background-color: #fdfdff;
+        background-color: aliceblue;
     }
     .container-two{
-        width: 96%;
+        width: 100%;
         height: 128px;
         display: flex;
         justify-content: space-between;
         align-items: center;
         gap: 10px;
-        padding: 0px 25px;
-        background-color: #d8e3f6;
-        border-bottom: 5%;
+        padding: 0px 20px;
+        background-color:antiquewhite;
     }
     .sbottom{
-        width: 78px;
-        height: 60px;
-        background-color: #f0eff6;
-        border-radius: 25%;
+        width: 90px;
+        height: 90px;
+        background-color: aliceblue;
+        border-radius: 10%;
         font-size: 30px;
         font-weight: bold;
         cursor: pointer;
-        border: 1px solid #f3f2f8;
+        font-family: 'Poppins', sans-serif;
     }
     .sbottom-two{
         width: 144px;
         height: 64px;
         border-radius: 24px;
         font-weight: bold;
-        background-color: #f7d9ff;
+        background-color:aquamarine;
         cursor: pointer;
-        border: 1px solid #f3d7fd;
-        font-size: 50px;
     }
 }
 
 @media only screen and (min-width: 1600px){
     .calculator{
-        width: 384px;
-        height: 500px;
+        width: 400px;
+        height: 700px;
         overflow: hidden;
-        border-radius: 1%;
-        background-color: rgba(0, 0, 0, 0.163);
-        padding: 10px 0px;
+        margin: 2%;
     }
     #result{
-        width: 368px;
-        height: 100px;
-        padding: 25px 25px;
+        width: 100%;
+        height: 200px;
+        padding: 0px 20px;
         font-size: 24px;
         color: #000;
-        align-items: center;
-        border-radius: 5%;
-        background: #e2e6f1;
+        font-family: 'Poppins', sans-serif;
+        border-radius: 0%;
     }
     .container{
         width: 96%;
-        height: 80px;
+        height: 96px;
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 15px;
+        gap: 10px;
         font-weight: bold;
-        background-color: #fdfdff;
+        background-color: aliceblue;
     }
     .container-two{
-        width: 96%;
+        width: 100%;
         height: 128px;
         display: flex;
         justify-content: space-between;
         align-items: center;
         gap: 10px;
-        padding: 0px 25px;
-        background-color: #d8e3f6;
-        border-bottom: 5%;
+        padding: 0px 20px;
+        background-color:antiquewhite;
     }
     .sbottom{
-        width: 78px;
-        height: 60px;
-        background-color: #f0eff6;
-        border-radius: 25%;
+        width: 90px;
+        height: 90px;
+        background-color: aliceblue;
+        border-radius: 10%;
         font-size: 30px;
         font-weight: bold;
         cursor: pointer;
-        border: 1px solid #f3f2f8;
+        font-family: 'Poppins', sans-serif;
     }
     .sbottom-two{
         width: 144px;
         height: 64px;
         border-radius: 24px;
         font-weight: bold;
-        background-color: #f7d9ff;
+        background-color:aquamarine;
         cursor: pointer;
-        border: 1px solid #f3d7fd;
-        font-size: 50px;
     }
 }
