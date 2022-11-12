@@ -20,11 +20,11 @@ body{
 
 .calculator{
     width: 100%;
-    height: 700px;
+    height: 750px;
     overflow: hidden;
     border-radius: 1px solid #000;
     margin: 15px 0px;
-    border-radius: 0px 0px 20px 20px;
+    border-radius: 0%;
 }
 .dark .calculator{
     background-color: #222227;
@@ -50,7 +50,7 @@ body{
     align-items: center;
     gap: 10px;
     font-weight: bold;
-    background-color: aliceblue;
+    background-color: #fdfdff;
     padding: 30px 0px;
 }
 
@@ -65,7 +65,7 @@ body{
     align-items: center;
     gap: 10px;
     padding: 0px 20px;
-    background-color:antiquewhite;
+    background-color: #d8e3f7;
 }
 .dark .container-two{
     background-color: #212221;
@@ -73,7 +73,7 @@ body{
 .sbottom{
     width: 90px;
     height: 90px;
-    background-color: aliceblue;
+    background-color: #f3f2f7;
     border-radius: 50%;
     font-size: 30px;
     font-weight: bold;
@@ -90,7 +90,7 @@ body{
     height: 64px;
     border-radius: 24px;
     font-weight: bold;
-    background-color:aquamarine;
+    background-color: #f7d7fd;
     cursor: pointer;
 }
 .dark .sbottom-two{
@@ -418,7 +418,7 @@ input:checked + .toggle .star--6 {
         align-items: center;
         gap: 10px;
         font-weight: bold;
-        background-color: aliceblue;
+        background-color: #fdfdff;
     }
     .container-two{
         width: 100%;
@@ -428,12 +428,12 @@ input:checked + .toggle .star--6 {
         align-items: center;
         gap: 10px;
         padding: 0px 20px;
-        background-color:antiquewhite;
+        background-color: #d8e3f7;
     }
     .sbottom{
         width: 90px;
         height: 90px;
-        background-color: aliceblue;
+        background-color: #f3f2f7;
         border-radius: 20%;
         font-size: 30px;
         font-weight: bold;
@@ -445,7 +445,7 @@ input:checked + .toggle .star--6 {
         height: 64px;
         border-radius: 24px;
         font-weight: bold;
-        background-color:aquamarine;
+        background-color:#f7d7fd;
         cursor: pointer;
     }
 }
@@ -455,6 +455,7 @@ input:checked + .toggle .star--6 {
         width: 400px;
         height: 700px;
         overflow: hidden;
+        border-radius: 0%;
         margin: 2%;
     }
     #result{
@@ -474,7 +475,7 @@ input:checked + .toggle .star--6 {
         align-items: center;
         gap: 10px;
         font-weight: bold;
-        background-color: aliceblue;
+        background-color: #fdfdff;
     }
     .container-two{
         width: 100%;
@@ -484,12 +485,12 @@ input:checked + .toggle .star--6 {
         align-items: center;
         gap: 10px;
         padding: 0px 20px;
-        background-color:antiquewhite;
+        background-color: #d8e3f7;
     }
     .sbottom{
         width: 90px;
         height: 90px;
-        background-color: aliceblue;
+        background-color: #f3f2f7;
         border-radius: 10%;
         font-size: 30px;
         font-weight: bold;
@@ -501,7 +502,7 @@ input:checked + .toggle .star--6 {
         height: 64px;
         border-radius: 24px;
         font-weight: bold;
-        background-color:aquamarine;
+        background-color:#f7d7fd;
         cursor: pointer;
     }
 }
