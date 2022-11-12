@@ -35,8 +35,8 @@ Que cosas necesitas para instalar el software y como verla en el dispositivo loc
 
 
 - Version Movile
-Aquí la descripción de la imagen de la vista
-(Movil-calculator.jfif)
+![Version movil ](Desktop.jpeg)
+
 
 ## Despliegue 📦
 
