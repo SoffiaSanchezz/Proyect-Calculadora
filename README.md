@@ -28,14 +28,14 @@ Que cosas necesitas para instalar el software y como verla en el dispositivo loc
 ```
 ### Instalación 🔧
 
-- Version Desktop
-
+- Version movil
+![Version movil ](Movil.jpeg)
 
 - Version Tablet
 
 
-- Version Movile
-![Version movil ](Desktop.jpeg)
+- Version Desktop
+![Version Desktop](Desktop.jpeg)
 
 
 ## Despliegue 📦
