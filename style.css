@@ -32,7 +32,7 @@ body{
 
 #result{
     width: 100%;
-    height: 250px;
+    height: 150px;
     padding: 0px 20px;
     font-size: 50px;
     color: #000;
@@ -44,7 +44,7 @@ body{
 }
 .container{
     width: 100%;
-    height: 120px;
+    height: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -395,7 +395,7 @@ input:checked + .toggle .star--6 {
 @media only screen and (min-width: 700px){
     .calculator{
         width: 384px;
-        height: 600px;
+        height: 500px;
         overflow: hidden;
         border-radius: 1%;
         background-color: rgba(0, 0, 0, 0.163);
@@ -403,7 +403,69 @@ input:checked + .toggle .star--6 {
     }
     #result{
         width: 368px;
-        height: 160px;
+        height: 100px;
+        padding: 25px 25px;
+        font-size: 24px;
+        color: #000;
+        align-items: center;
+        border-radius: 5%;
+        background: #e2e6f1;
+    }
+    .container{
+        width: 96%;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        font-weight: bold;
+        background-color: #fdfdff;
+    }
+    .container-two{
+        width: 96%;
+        height: 128px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+        padding: 0px 25px;
+        background-color: #d8e3f6;
+        border-bottom: 5%;
+    }
+    .sbottom{
+        width: 78px;
+        height: 60px;
+        background-color: #f0eff6;
+        border-radius: 25%;
+        font-size: 30px;
+        font-weight: bold;
+        cursor: pointer;
+        border: 1px solid #f3f2f8;
+    }
+    .sbottom-two{
+        width: 144px;
+        height: 64px;
+        border-radius: 24px;
+        font-weight: bold;
+        background-color: #f7d9ff;
+        cursor: pointer;
+        border: 1px solid #f3d7fd;
+        font-size: 50px;
+    }
+}
+
+@media only screen and (min-width: 1600px){
+    .calculator{
+        width: 384px;
+        height: 500px;
+        overflow: hidden;
+        border-radius: 1%;
+        background-color: rgba(0, 0, 0, 0.163);
+        padding: 10px 0px;
+    }
+    #result{
+        width: 368px;
+        height: 100px;
         padding: 25px 25px;
         font-size: 24px;
         color: #000;
