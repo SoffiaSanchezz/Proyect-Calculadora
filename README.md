@@ -28,20 +28,14 @@ Que cosas necesitas para instalar el software y como verla en el dispositivo loc
 ```
 ### Instalación 🔧
 
-- Version movil
-![Version movil ](Movil.jpeg)
-
-- Version Tablet
-
-
-- Version Desktop
-![Version Desktop](Desktop.jpeg)
+- Como se debe observar en el despliegue
+![Version Desktop](Responsive.jpeg)
 
 
 ## Despliegue 📦
 
-El despliege esta apto para ejecutarse
-- "link del despliege"
+El despliege esta apto para ejecutarse 
+- https://proyect-calculadora-rho.vercel.app/
 
 ## Construido con 🛠️
 
